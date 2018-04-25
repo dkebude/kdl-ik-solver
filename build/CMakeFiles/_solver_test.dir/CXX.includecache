@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/solver.cpp
+/home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/CppIkSolver/solver.cpp
 solver.h
-/home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/solver.h
+/home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/CppIkSolver/solver.h
 
-/home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/solver.h
+/home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/CppIkSolver/solver.h
 kdl_parser/kdl_parser.hpp
 -
 kdl/jntarray.hpp
@@ -32,7 +32,7 @@ boost/random.hpp
 boost/random/normal_distribution.hpp
 -
 
-/home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/solver_wrap.cpp
+/home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/CppIkSolver/solver_wrap.cpp
 Python.h
 -
 Python.h
@@ -42,7 +42,7 @@ string.h
 stdexcept
 -
 solver.h
-/home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/solver.h
+/home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/CppIkSolver/solver.h
 string
 -
 iostream

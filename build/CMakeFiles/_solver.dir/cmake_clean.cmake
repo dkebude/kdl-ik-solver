@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/_solver.dir/solver_wrap.cpp.o"
-  "CMakeFiles/_solver.dir/solver.cpp.o"
+  "CMakeFiles/_solver.dir/CppIkSolver/solver_wrap.cpp.o"
+  "CMakeFiles/_solver.dir/CppIkSolver/solver.cpp.o"
   "_solver.pdb"
   "_solver.so"
 )

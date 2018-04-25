@@ -55,14 +55,14 @@ if(USE_SWIG)
     message(STATUS "NOTICE: SWIG not found, JAVA bindings will not be created.")
   endif()
 else()
-  add_library(_solver SHARED  solver_wrap.cpp solver.cpp)
+  add_library(_solver SHARED  CppIkSolver/solver_wrap.cpp CppIkSolver/solver.cpp)
   target_link_libraries(_solver ${MY_ADDED_LIBS})
   SET_TARGET_PROPERTIES(_solver PROPERTIES PREFIX "")
 
-  add_library(_solver_test solver_wrap.cpp solver.cpp)
+  add_library(_solver_test CppIkSolver/solver_wrap.cpp CppIkSolver/solver.cpp)
   target_link_libraries(_solver_test ${MY_ADDED_LIBS})
   
-  add_executable(solver_test solver_test.cpp)
+  add_executable(solver_test CppIkSolver/solver_test.cpp)
   target_link_libraries(solver_test _solver)
 endif()
 

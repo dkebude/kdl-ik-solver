@@ -1,2 +1,2 @@
-/usr/bin/ar qc lib_solver_test.a  CMakeFiles/_solver_test.dir/solver_wrap.cpp.o CMakeFiles/_solver_test.dir/solver.cpp.o
+/usr/bin/ar qc lib_solver_test.a  CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.o CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.o
 /usr/bin/ranlib lib_solver_test.a

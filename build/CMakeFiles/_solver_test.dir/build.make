@@ -57,64 +57,64 @@ include CMakeFiles/_solver_test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/_solver_test.dir/flags.make
 
-CMakeFiles/_solver_test.dir/solver_wrap.cpp.o: CMakeFiles/_solver_test.dir/flags.make
-CMakeFiles/_solver_test.dir/solver_wrap.cpp.o: ../solver_wrap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/_solver_test.dir/solver_wrap.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_solver_test.dir/solver_wrap.cpp.o -c /home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/solver_wrap.cpp
+CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.o: CMakeFiles/_solver_test.dir/flags.make
+CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.o: ../CppIkSolver/solver_wrap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.o -c /home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/CppIkSolver/solver_wrap.cpp
 
-CMakeFiles/_solver_test.dir/solver_wrap.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_solver_test.dir/solver_wrap.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/solver_wrap.cpp > CMakeFiles/_solver_test.dir/solver_wrap.cpp.i
+CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/CppIkSolver/solver_wrap.cpp > CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.i
 
-CMakeFiles/_solver_test.dir/solver_wrap.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_solver_test.dir/solver_wrap.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/solver_wrap.cpp -o CMakeFiles/_solver_test.dir/solver_wrap.cpp.s
+CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/CppIkSolver/solver_wrap.cpp -o CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.s
 
-CMakeFiles/_solver_test.dir/solver_wrap.cpp.o.requires:
+CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.o.requires:
 
-.PHONY : CMakeFiles/_solver_test.dir/solver_wrap.cpp.o.requires
+.PHONY : CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.o.requires
 
-CMakeFiles/_solver_test.dir/solver_wrap.cpp.o.provides: CMakeFiles/_solver_test.dir/solver_wrap.cpp.o.requires
-	$(MAKE) -f CMakeFiles/_solver_test.dir/build.make CMakeFiles/_solver_test.dir/solver_wrap.cpp.o.provides.build
-.PHONY : CMakeFiles/_solver_test.dir/solver_wrap.cpp.o.provides
+CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.o.provides: CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.o.requires
+	$(MAKE) -f CMakeFiles/_solver_test.dir/build.make CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.o.provides.build
+.PHONY : CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.o.provides
 
-CMakeFiles/_solver_test.dir/solver_wrap.cpp.o.provides.build: CMakeFiles/_solver_test.dir/solver_wrap.cpp.o
+CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.o.provides.build: CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.o
 
 
-CMakeFiles/_solver_test.dir/solver.cpp.o: CMakeFiles/_solver_test.dir/flags.make
-CMakeFiles/_solver_test.dir/solver.cpp.o: ../solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/_solver_test.dir/solver.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_solver_test.dir/solver.cpp.o -c /home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/solver.cpp
+CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.o: CMakeFiles/_solver_test.dir/flags.make
+CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.o: ../CppIkSolver/solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.o -c /home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/CppIkSolver/solver.cpp
 
-CMakeFiles/_solver_test.dir/solver.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_solver_test.dir/solver.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/solver.cpp > CMakeFiles/_solver_test.dir/solver.cpp.i
+CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/CppIkSolver/solver.cpp > CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.i
 
-CMakeFiles/_solver_test.dir/solver.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_solver_test.dir/solver.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/solver.cpp -o CMakeFiles/_solver_test.dir/solver.cpp.s
+CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/CppIkSolver/solver.cpp -o CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.s
 
-CMakeFiles/_solver_test.dir/solver.cpp.o.requires:
+CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.o.requires:
 
-.PHONY : CMakeFiles/_solver_test.dir/solver.cpp.o.requires
+.PHONY : CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.o.requires
 
-CMakeFiles/_solver_test.dir/solver.cpp.o.provides: CMakeFiles/_solver_test.dir/solver.cpp.o.requires
-	$(MAKE) -f CMakeFiles/_solver_test.dir/build.make CMakeFiles/_solver_test.dir/solver.cpp.o.provides.build
-.PHONY : CMakeFiles/_solver_test.dir/solver.cpp.o.provides
+CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.o.provides: CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.o.requires
+	$(MAKE) -f CMakeFiles/_solver_test.dir/build.make CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.o.provides.build
+.PHONY : CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.o.provides
 
-CMakeFiles/_solver_test.dir/solver.cpp.o.provides.build: CMakeFiles/_solver_test.dir/solver.cpp.o
+CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.o.provides.build: CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.o
 
 
 # Object files for target _solver_test
 _solver_test_OBJECTS = \
-"CMakeFiles/_solver_test.dir/solver_wrap.cpp.o" \
-"CMakeFiles/_solver_test.dir/solver.cpp.o"
+"CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.o" \
+"CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.o"
 
 # External object files for target _solver_test
 _solver_test_EXTERNAL_OBJECTS =
 
-lib_solver_test.a: CMakeFiles/_solver_test.dir/solver_wrap.cpp.o
-lib_solver_test.a: CMakeFiles/_solver_test.dir/solver.cpp.o
+lib_solver_test.a: CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.o
+lib_solver_test.a: CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.o
 lib_solver_test.a: CMakeFiles/_solver_test.dir/build.make
 lib_solver_test.a: CMakeFiles/_solver_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library lib_solver_test.a"
@@ -126,8 +126,8 @@ CMakeFiles/_solver_test.dir/build: lib_solver_test.a
 
 .PHONY : CMakeFiles/_solver_test.dir/build
 
-CMakeFiles/_solver_test.dir/requires: CMakeFiles/_solver_test.dir/solver_wrap.cpp.o.requires
-CMakeFiles/_solver_test.dir/requires: CMakeFiles/_solver_test.dir/solver.cpp.o.requires
+CMakeFiles/_solver_test.dir/requires: CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.o.requires
+CMakeFiles/_solver_test.dir/requires: CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.o.requires
 
 .PHONY : CMakeFiles/_solver_test.dir/requires
 

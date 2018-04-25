@@ -149,92 +149,92 @@ _solver_test/fast:
 	$(MAKE) -f CMakeFiles/_solver_test.dir/build.make CMakeFiles/_solver_test.dir/build
 .PHONY : _solver_test/fast
 
-solver.o: solver.cpp.o
+CppIkSolver/solver.o: CppIkSolver/solver.cpp.o
 
-.PHONY : solver.o
-
-# target to build an object file
-solver.cpp.o:
-	$(MAKE) -f CMakeFiles/_solver.dir/build.make CMakeFiles/_solver.dir/solver.cpp.o
-	$(MAKE) -f CMakeFiles/_solver_test.dir/build.make CMakeFiles/_solver_test.dir/solver.cpp.o
-.PHONY : solver.cpp.o
-
-solver.i: solver.cpp.i
-
-.PHONY : solver.i
-
-# target to preprocess a source file
-solver.cpp.i:
-	$(MAKE) -f CMakeFiles/_solver.dir/build.make CMakeFiles/_solver.dir/solver.cpp.i
-	$(MAKE) -f CMakeFiles/_solver_test.dir/build.make CMakeFiles/_solver_test.dir/solver.cpp.i
-.PHONY : solver.cpp.i
-
-solver.s: solver.cpp.s
-
-.PHONY : solver.s
-
-# target to generate assembly for a file
-solver.cpp.s:
-	$(MAKE) -f CMakeFiles/_solver.dir/build.make CMakeFiles/_solver.dir/solver.cpp.s
-	$(MAKE) -f CMakeFiles/_solver_test.dir/build.make CMakeFiles/_solver_test.dir/solver.cpp.s
-.PHONY : solver.cpp.s
-
-solver_test.o: solver_test.cpp.o
-
-.PHONY : solver_test.o
+.PHONY : CppIkSolver/solver.o
 
 # target to build an object file
-solver_test.cpp.o:
-	$(MAKE) -f CMakeFiles/solver_test.dir/build.make CMakeFiles/solver_test.dir/solver_test.cpp.o
-.PHONY : solver_test.cpp.o
+CppIkSolver/solver.cpp.o:
+	$(MAKE) -f CMakeFiles/_solver.dir/build.make CMakeFiles/_solver.dir/CppIkSolver/solver.cpp.o
+	$(MAKE) -f CMakeFiles/_solver_test.dir/build.make CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.o
+.PHONY : CppIkSolver/solver.cpp.o
 
-solver_test.i: solver_test.cpp.i
+CppIkSolver/solver.i: CppIkSolver/solver.cpp.i
 
-.PHONY : solver_test.i
+.PHONY : CppIkSolver/solver.i
 
 # target to preprocess a source file
-solver_test.cpp.i:
-	$(MAKE) -f CMakeFiles/solver_test.dir/build.make CMakeFiles/solver_test.dir/solver_test.cpp.i
-.PHONY : solver_test.cpp.i
+CppIkSolver/solver.cpp.i:
+	$(MAKE) -f CMakeFiles/_solver.dir/build.make CMakeFiles/_solver.dir/CppIkSolver/solver.cpp.i
+	$(MAKE) -f CMakeFiles/_solver_test.dir/build.make CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.i
+.PHONY : CppIkSolver/solver.cpp.i
 
-solver_test.s: solver_test.cpp.s
+CppIkSolver/solver.s: CppIkSolver/solver.cpp.s
 
-.PHONY : solver_test.s
+.PHONY : CppIkSolver/solver.s
 
 # target to generate assembly for a file
-solver_test.cpp.s:
-	$(MAKE) -f CMakeFiles/solver_test.dir/build.make CMakeFiles/solver_test.dir/solver_test.cpp.s
-.PHONY : solver_test.cpp.s
+CppIkSolver/solver.cpp.s:
+	$(MAKE) -f CMakeFiles/_solver.dir/build.make CMakeFiles/_solver.dir/CppIkSolver/solver.cpp.s
+	$(MAKE) -f CMakeFiles/_solver_test.dir/build.make CMakeFiles/_solver_test.dir/CppIkSolver/solver.cpp.s
+.PHONY : CppIkSolver/solver.cpp.s
 
-solver_wrap.o: solver_wrap.cpp.o
+CppIkSolver/solver_test.o: CppIkSolver/solver_test.cpp.o
 
-.PHONY : solver_wrap.o
+.PHONY : CppIkSolver/solver_test.o
 
 # target to build an object file
-solver_wrap.cpp.o:
-	$(MAKE) -f CMakeFiles/_solver.dir/build.make CMakeFiles/_solver.dir/solver_wrap.cpp.o
-	$(MAKE) -f CMakeFiles/_solver_test.dir/build.make CMakeFiles/_solver_test.dir/solver_wrap.cpp.o
-.PHONY : solver_wrap.cpp.o
+CppIkSolver/solver_test.cpp.o:
+	$(MAKE) -f CMakeFiles/solver_test.dir/build.make CMakeFiles/solver_test.dir/CppIkSolver/solver_test.cpp.o
+.PHONY : CppIkSolver/solver_test.cpp.o
 
-solver_wrap.i: solver_wrap.cpp.i
+CppIkSolver/solver_test.i: CppIkSolver/solver_test.cpp.i
 
-.PHONY : solver_wrap.i
+.PHONY : CppIkSolver/solver_test.i
 
 # target to preprocess a source file
-solver_wrap.cpp.i:
-	$(MAKE) -f CMakeFiles/_solver.dir/build.make CMakeFiles/_solver.dir/solver_wrap.cpp.i
-	$(MAKE) -f CMakeFiles/_solver_test.dir/build.make CMakeFiles/_solver_test.dir/solver_wrap.cpp.i
-.PHONY : solver_wrap.cpp.i
+CppIkSolver/solver_test.cpp.i:
+	$(MAKE) -f CMakeFiles/solver_test.dir/build.make CMakeFiles/solver_test.dir/CppIkSolver/solver_test.cpp.i
+.PHONY : CppIkSolver/solver_test.cpp.i
 
-solver_wrap.s: solver_wrap.cpp.s
+CppIkSolver/solver_test.s: CppIkSolver/solver_test.cpp.s
 
-.PHONY : solver_wrap.s
+.PHONY : CppIkSolver/solver_test.s
 
 # target to generate assembly for a file
-solver_wrap.cpp.s:
-	$(MAKE) -f CMakeFiles/_solver.dir/build.make CMakeFiles/_solver.dir/solver_wrap.cpp.s
-	$(MAKE) -f CMakeFiles/_solver_test.dir/build.make CMakeFiles/_solver_test.dir/solver_wrap.cpp.s
-.PHONY : solver_wrap.cpp.s
+CppIkSolver/solver_test.cpp.s:
+	$(MAKE) -f CMakeFiles/solver_test.dir/build.make CMakeFiles/solver_test.dir/CppIkSolver/solver_test.cpp.s
+.PHONY : CppIkSolver/solver_test.cpp.s
+
+CppIkSolver/solver_wrap.o: CppIkSolver/solver_wrap.cpp.o
+
+.PHONY : CppIkSolver/solver_wrap.o
+
+# target to build an object file
+CppIkSolver/solver_wrap.cpp.o:
+	$(MAKE) -f CMakeFiles/_solver.dir/build.make CMakeFiles/_solver.dir/CppIkSolver/solver_wrap.cpp.o
+	$(MAKE) -f CMakeFiles/_solver_test.dir/build.make CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.o
+.PHONY : CppIkSolver/solver_wrap.cpp.o
+
+CppIkSolver/solver_wrap.i: CppIkSolver/solver_wrap.cpp.i
+
+.PHONY : CppIkSolver/solver_wrap.i
+
+# target to preprocess a source file
+CppIkSolver/solver_wrap.cpp.i:
+	$(MAKE) -f CMakeFiles/_solver.dir/build.make CMakeFiles/_solver.dir/CppIkSolver/solver_wrap.cpp.i
+	$(MAKE) -f CMakeFiles/_solver_test.dir/build.make CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.i
+.PHONY : CppIkSolver/solver_wrap.cpp.i
+
+CppIkSolver/solver_wrap.s: CppIkSolver/solver_wrap.cpp.s
+
+.PHONY : CppIkSolver/solver_wrap.s
+
+# target to generate assembly for a file
+CppIkSolver/solver_wrap.cpp.s:
+	$(MAKE) -f CMakeFiles/_solver.dir/build.make CMakeFiles/_solver.dir/CppIkSolver/solver_wrap.cpp.s
+	$(MAKE) -f CMakeFiles/_solver_test.dir/build.make CMakeFiles/_solver_test.dir/CppIkSolver/solver_wrap.cpp.s
+.PHONY : CppIkSolver/solver_wrap.cpp.s
 
 # Help Target
 help:
@@ -247,15 +247,15 @@ help:
 	@echo "... solver_test"
 	@echo "... _solver_test"
 	@echo "... rebuild_cache"
-	@echo "... solver.o"
-	@echo "... solver.i"
-	@echo "... solver.s"
-	@echo "... solver_test.o"
-	@echo "... solver_test.i"
-	@echo "... solver_test.s"
-	@echo "... solver_wrap.o"
-	@echo "... solver_wrap.i"
-	@echo "... solver_wrap.s"
+	@echo "... CppIkSolver/solver.o"
+	@echo "... CppIkSolver/solver.i"
+	@echo "... CppIkSolver/solver.s"
+	@echo "... CppIkSolver/solver_test.o"
+	@echo "... CppIkSolver/solver_test.i"
+	@echo "... CppIkSolver/solver_test.s"
+	@echo "... CppIkSolver/solver_wrap.o"
+	@echo "... CppIkSolver/solver_wrap.i"
+	@echo "... CppIkSolver/solver_wrap.s"
 .PHONY : help
 
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/solver.h
+/home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/CppIkSolver/solver.h
 kdl_parser/kdl_parser.hpp
 -
 kdl/jntarray.hpp
@@ -28,9 +28,9 @@ boost/random.hpp
 boost/random/normal_distribution.hpp
 -
 
-/home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/solver_test.cpp
+/home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/CppIkSolver/solver_test.cpp
 solver.h
-/home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/solver.h
+/home/dkebude/catkin_ws/src/ik_solver/src/ik_solver/CppIkSolver/solver.h
 
 /opt/ros/kinetic/include/kdl/chain.hpp
 segment.hpp
